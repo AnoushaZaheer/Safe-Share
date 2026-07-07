@@ -1,0 +1,44 @@
+{
+    "source": "C:\\Users\\MM\\Downloads\\Itop\\Itop",
+    "destination": "D:\\Portfolio Publisher\\Portfolio",
+
+    "replace": {
+        "https://helpdesk.mercurialminds.com": "https://demo-helpdesk.com",
+        "helpdesk.mercurialminds.com": "demo-helpdesk.com",
+
+        "Mercurial Minds": "Demo Company",
+        "Mercurial": "Demo",
+
+        "anis.awan": "demo.user",
+        "Mercurial@001": "<PASSWORD>"
+    },
+
+    "ignore": [
+        ".local",
+        ".project",
+        ".screenshots",
+        ".templates",
+        ".tmh",
+        "__pycache__"
+    ],
+
+    "extensions": [
+        ".xaml",
+        ".json",
+        ".xml",
+        ".txt",
+        ".csv",
+        ".config",
+        ".md"
+    ],
+    "ignore_patterns": [
+        "cloud.uipath.com",
+    "schemas.microsoft.com",
+    "schemas.uipath.com",
+    "schemas.openxmlformats.org",
+    "cv.uipath.com",
+    "ocr.uipath.com",
+    "du.uipath.com",
+    "demo-helpdesk.com"
+]
+}

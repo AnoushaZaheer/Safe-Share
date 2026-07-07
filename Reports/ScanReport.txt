@@ -1,0 +1,22 @@
+=========================================
+         Safe Share Scan Report
+=========================================
+
+Total Findings : 10
+
+
+Main.xaml
+---------
+[Windows Path] C:\Users\MM\Downloads\Incident Export.xlsx
+[Windows Path] D:\Anis Awan\Earlier PC\Anis\Itop Incident Report\Monthly Incident Report
+[Windows Path] D:\Anis Awan\Earlier PC\Anis\Itop Incident Report\Monthly Incident Report\Incident Export.xlsx
+[Windows Path] C:\Users\Anis Awan\Downloads\Incident Export.xlsx
+[Windows Path] C:\Users\MM\Downloads\Incident Export.xlsx&quot;)&#xD;&#xA;&#xD;&#xA;    worksheet = CType(&#xD;&#xA;        workbook.Worksheets(&quot;DataSheet&quot;),&#xD;&#xA;        Microsoft.Office.Interop.Excel.Worksheet&#xD;&#xA;    )&#xD;&#xA;&#xD;&#xA;    targetRange = worksheet.UsedRange.EntireRow&#xD;&#xA;    targetRange.RowHeight = 25&#xD;&#xA;&#xD;&#xA;    workbook.Save()&#xD;&#xA;&#xD;&#xA;Finally&#xD;&#xA;    If workbook IsNot Nothing Then&#xD;&#xA;        workbook.Close(SaveChanges
+[Windows Path] C:\Users\MM\Downloads\Incident Export.xlsx&quot;&#xD;&#xA;Dim sheetName As String = &quot;DataSheet&quot;&#xD;&#xA;' ============================================&#xD;&#xA;&#xD;&#xA;Dim excelApp As New Microsoft.Office.Interop.Excel.Application()&#xD;&#xA;excelApp.Visible = False&#xD;&#xA;excelApp.DisplayAlerts = False&#xD;&#xA;&#xD;&#xA;Dim wb As Microsoft.Office.Interop.Excel.Workbook = Nothing&#xD;&#xA;&#xD;&#xA;' --- Helper
+[Windows Path] E:\s
+
+Sequence1.xaml
+--------------
+[Windows Path] D:\Earlier PC\Anis\Itop Incident Report\Monthly Incident Report
+[Windows Path] C:\Users\Anis Awan\Downloads\Incident Export.xlsx
+[Windows Path] D:\Earlier PC\Anis\Itop Incident Report\Monthly Incident Report\Incident Export.xlsx
