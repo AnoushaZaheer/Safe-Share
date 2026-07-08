@@ -1,1 +1,8 @@
+# Your real config contains company names, usernames, passwords - never commit it
+config/config.json
+
+# Scan reports may contain the sensitive values they found
 Reports/
+
+__pycache__/
+*.pyc

@@ -1,0 +1,69 @@
+{
+    "source": "C:\\path\\to\\your\\project",
+    "destination": "C:\\path\\to\\sanitized\\copy",
+    "replace": {
+        "https://internal.yourcompany.com": "https://example.com",
+        "Your Company Name": "Demo Company",
+        "your.username": "demo.user",
+        "YourRealPassword": "<PASSWORD>"
+    },
+    "ignore": [
+        ".git",
+        ".local",
+        ".project",
+        ".screenshots",
+        ".templates",
+        ".tmh",
+        "__pycache__",
+        "node_modules",
+        ".venv"
+    ],
+    "extensions": [
+        ".xaml",
+        ".json",
+        ".xml",
+        ".txt",
+        ".csv",
+        ".config",
+        ".md",
+        ".py",
+        ".cs",
+        ".vb",
+        ".yaml",
+        ".yml"
+    ],
+    "safe_domains": [
+        "github.com"
+    ],
+    "ignore_patterns": [],
+    "auto_sanitize": {
+        "windows_users": {
+            "enabled": true,
+            "placeholder": "USER"
+        },
+        "emails": {
+            "enabled": true,
+            "placeholder": "user@example.com"
+        },
+        "urls": {
+            "enabled": true,
+            "placeholder": "https://example.com"
+        },
+        "network_paths": {
+            "enabled": true,
+            "placeholder": "\\\\SERVER\\share"
+        },
+        "ip_addresses": {
+            "enabled": true,
+            "placeholder": "0.0.0.0"
+        },
+        "connection_strings": {
+            "enabled": true,
+            "placeholder": "Server=SERVER;"
+        },
+        "api_keys": {
+            "enabled": true,
+            "placeholder": "REDACTED"
+        }
+    }
+}
